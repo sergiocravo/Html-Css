@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px; 
+            /* Largura de celulares mais antigos é aproximadamente 320px */
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore fuga placeat optio ullam similique dignissimos aliquid corporis, debitis id iste odio doloribus dolor, eligendi iusto reiciendis enim velit repudiandae at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur iure enim voluptatum eligendi eos quas, neque, molestiae sint reprehenderit laborum amet ab illo ipsam atque distinctio magnam ad culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam dolorum vel quas eaque, quis enim sunt et quos autem consequatur recusandae, eos illo ab temporibus. Exercitationem ullam reiciendis esse!</p>
+
+        <picture>
+            <source media="(max-width: 600px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Blok">
+        </picture>
+
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore fuga placeat optio ullam similique dignissimos aliquid corporis, debitis id iste odio doloribus dolor, eligendi iusto reiciendis enim velit repudiandae at?Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore tenetur iure enim voluptatum eligendi eos quas, neque, molestiae sint reprehenderit laborum amet ab illo ipsam atque distinctio magnam ad culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsam dolorum vel quas eaque, quis enim sunt et quos autem consequatur recusandae, eos illo ab temporibus. Exercitationem ullam reiciendis esse!</p>
+
+    </main>
+</body>
+</html>
